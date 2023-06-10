@@ -1,0 +1,125 @@
+body{
+    background-color:aqua;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    /* Put Everything Horizontly. */
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    height: 65px;
+    color: white;
+
+}
+
+.brand img {
+    height: 67px;
+    width: 73px;
+    padding: 0 8px;
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.0rem;
+}
+
+nav ul li{
+    padding: 0px 20px;
+}
+
+.container{
+    min-height: 68vh;
+    background-color: black;
+    display: flex;
+    margin: 23px auto;
+    color: white;
+    width: 70%;
+    border-radius: 12px;
+    padding: 12px ;
+    background-image: url('bg.jpg');
+}
+
+.container h1{
+    margin-left: 12px;
+}
+
+.bottom{
+    position:sticky;
+    background-color: black;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    flex-direction: column;
+}
+
+#Progressbar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 14px;
+    color: white;
+    
+    
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.songItem{
+    height: 35px;
+    display: flex;
+    background-color: white;
+    width: 40%;
+    color: black;
+    margin: 12px 9px;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 6%;
+    border-radius: 61px;
+    margin: 0 12px;
+}
+
+.timestamp{
+    padding: 6px 23px;
+    
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.SongItemcontainer{
+    margin-top: 20px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.songinfo img{
+    opacity: 0;
+    transform: opacity 1s ease-in;
+}
